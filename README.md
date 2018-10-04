@@ -29,7 +29,7 @@ The output file is stored using Spark `saveAsTextFile`, and, as such, it consist
 ## Execution
 The script expects 3 command line arguments:
 ```
-spark-submit p_distance_matrix_better.py <input_file> <output_file> <executors>
+spark-submit spark_distance_matrix.py <input_file> <output_file> <executors>
 ```
 * **input_file**: path to the input file
 * **output_file**: path where output is stored (can be HDFS)
