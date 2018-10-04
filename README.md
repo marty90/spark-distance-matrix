@@ -15,7 +15,7 @@ pip install python-Levenshtein
 Remind that if you have a cluster, `python-Levenshtein` should be installed on all nodes.
 
 ## Input and output format
-The script expects as input a single file containing the target strings, one per line.
+The script expects as input a single file containing the target strings, one per line. Use you own data, or download public datasets (like [this](https://www.kaggle.com/simsek/openphishcom-phishing-urls-on-oct-2-2017#dataset.csv), [this](https://www.kaggle.com/teseract/urldataset) or [this](http://machinelearning.inginf.units.it/data-and-tools/hidden-fraudulent-urls-dataset)).
 
 The output is a textual file as well. Each line reports the distances between a string and all others. A line looks like:
 ```
