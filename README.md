@@ -2,7 +2,7 @@
 
 This piece of code computes a distance matrix for a set of input strings. It uses Apache Spark to achieve parallelism.
 
-It uses the normalized version of the Levenshtein distance, but you can easily change the code to include your custom distance function.
+It uses the normalized version of the Levenshtein distance, but you can easily [change the code](https://github.com/marty90/spark-distance-matrix/blob/8b76c1348435352d4e20c589fb27dd0d81556bfa/spark_distance_matrix.py#L23) to include your favorite distance function.
 
 For any information or request write to [martino.trevisan@polito.it](mailto:martino.trevisan@polito.it).
 
